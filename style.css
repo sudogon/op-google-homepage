@@ -1,0 +1,75 @@
+
+/* nav */
+
+.nav {
+    position: fixed;
+    right: 0;
+    top: 0;
+    text-align: center;
+}
+
+.nav a {
+    text-decoration: none;
+}
+/* nav acaba aqui */
+
+/* main */
+
+.input-container {
+    width: clamp(306px, 50%, 70%)
+    margin-bottom: 10px;
+}
+
+.input-container i {
+    position: absolute;
+    border-radius: *;
+}
+
+.material-icons {
+    padding: 5px;
+    min-width: 50px;
+    text-align: center;
+}
+
+main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* main acaba aqui */
+
+/* footer */
+.footer {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    bottom: 0;
+    justify-content: space-around;
+}
+
+/* footer acaba aqui */
+
+/* misc */
+
+.link {
+    color: black;
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+}
+/* misc acaba aqui */
+
