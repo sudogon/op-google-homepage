@@ -1,15 +1,53 @@
 
 /* nav */
 
+nav {
+    padding-left: 12px;
+    width: 100%;
+}
 .nav {
     position: fixed;
     right: 0;
     top: 0;
     text-align: center;
+    display: inline-block;
+    line-height: 24px;
+    vertical-align: middle;
+    height: 48px;
+    color: black;
+    padding: 0 4px;
+    font-size: 13px;
 }
 
 .nav a {
     text-decoration: none;
+}
+
+.navigation {
+    color: black;
+    padding-left: 12px;
+}
+
+.navigation:hover{
+    text-decoration: underline;
+}
+
+.nav img {
+    border-radius: 50%;
+    width: 34px;
+    height: 34px;
+    vertical-align: middle;
+    padding: 12px;   
+}
+
+.nav .material-icons {
+    vertical-align: middle;
+    padding-left: 12px;
+    color: #555;
+}
+
+.nav .material-icons:hover {
+    color: black;
 }
 /* nav acaba aqui */
 
@@ -22,12 +60,10 @@
 
 .input-container i {
     position: absolute;
-    border-radius: *;
 }
 
-.material-icons {
+.main .material-icons {
     padding: 5px;
-    min-width: 50px;
     text-align: center;
 }
 
@@ -39,8 +75,9 @@ main {
     width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: center | space-evenly;
     align-items: center;
+    padding: 12px;
 }
 
 /* main acaba aqui */
@@ -51,7 +88,17 @@ main {
     width: 100%;
     display: flex;
     bottom: 0;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-self: auto | flex-start | flex-end | center | baseline | stretch;
+    font-size: 14px;
+    border-top: 1px solid #ddd;
+    background-color: #eee;
+    color: #70757a;
+}
+
+.footer a {
+    padding: 12px;
 }
 
 /* footer acaba aqui */
@@ -59,7 +106,7 @@ main {
 /* misc */
 
 .link {
-    color: black;
+    color: #70757a;
     text-decoration: none;
 }
 
@@ -67,9 +114,10 @@ main {
     text-decoration: underline;
 }
 
-html {
-    height: 100%;
-    width: 100%;
+body {
+    font-family: arial,sans-serif;
+    margin: 0;
+    padding: 0;
 }
 /* misc acaba aqui */
 
