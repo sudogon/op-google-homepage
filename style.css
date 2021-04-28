@@ -67,9 +67,8 @@ main {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -100%);
-    width: clamp(306px, 50%, 70%);
+    width: clamp(306px, 50%, 80%);
     display: flex;
-    margin: 0 auto;
     flex-direction: column;
     justify-content: center | space-evenly;
     align-items: center;
@@ -80,24 +79,26 @@ main {
     position: relative;
     justify-content: center | space-evenly;
     align-items: center;
+    margin: 0 auto;
 }
-
+ .main img {
+    padding: 20px;
+ }
 .main .material-icons {
     margin: 6px;
     text-align: center;
     vertical-align: middle;
-    color: #666;
+    color: #999;
 }
 
 .main .search-area {
     min-height: 30px;
-    width: 100%;
     padding-left: 26px;
     margin: 0px auto;
     text-align: left;
 }
 
-.main .search-area:focus {
+.main .search-area:hover {
     box-shadow: 1px 1px 1px 1px #ddd;
 }
 
@@ -106,12 +107,12 @@ main {
     background-color: #eee;
     border: none;
     color: black;
-    padding: 6px 12px;
+    padding: 6px 6px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 14px;
-    margin: 12px;
+    margin: 20px;
     border-radius: 5px;
 }
 .main button:hover {
@@ -157,4 +158,3 @@ body {
     padding: 0;
 }
 /* misc acaba aqui */
-
