@@ -66,8 +66,7 @@ main {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -100%);
-    width: clamp(306px, 50%, 80%);
+    transform: translate(-50%, -70%);
     display: flex;
     flex-direction: column;
     justify-content: center | space-evenly;
